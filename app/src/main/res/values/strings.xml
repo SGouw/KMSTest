@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">KMSTest</string>
     <string name="edit_message">Enter a message</string>
-    <string name="button_send">Send</string>
+    <string name="button_send">Send Something</string>
+    <string name="button_alert">Alert</string>
+
 </resources>
