@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void sendMessage(View view){
         //Do something in response to button
+        System.out.println("Did this work");
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.editText);
         String message = editText.getText().toString();
